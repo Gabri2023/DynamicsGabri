@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/my_doosan_pkg/my_doosan_pkg.egg-info
+writing ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gabri/ros2_ws/build/my_doosan_pkg/build
+creating /home/gabri/ros2_ws/build/my_doosan_pkg/build/lib
+creating /home/gabri/ros2_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg
+copying my_doosan_pkg/__init__.py -> /home/gabri/ros2_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg
+running install
+running install_lib
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg
+copying /home/gabri/ros2_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg/__init__.py -> /home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg
+byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/ament_index
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/ament_index/resource_index
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/ament_index/resource_index/packages
+copying resource/my_doosan_pkg -> /home/gabri/ros2_ws/install/my_doosan_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+copying launch/my_doosan_gazebo_controller.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/config
+copying config/simple_controller.yaml -> /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/config
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.a0912.blue.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.gazebo_config_control.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+creating /home/gabri/ros2_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+running install_egg_info
+Copying ../../build/my_doosan_pkg/my_doosan_pkg.egg-info to /home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/gabri/ros2_ws/build/my_doosan_pkg/install.log'

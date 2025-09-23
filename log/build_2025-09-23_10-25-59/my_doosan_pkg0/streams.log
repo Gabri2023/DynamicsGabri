@@ -1,0 +1,68 @@
+[1.155s] Invoking command in '/home/gabri/ros2_ws/src/robotic_arm_environment/my_doosan_pkg': PYTHONPATH=/home/gabri/ros2_ws/build/my_doosan_pkg0/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_doosan_pkg0 build --build-base /home/gabri/ros2_ws/build/my_doosan_pkg0/build install --record /home/gabri/ros2_ws/build/my_doosan_pkg0/install.log --single-version-externally-managed install_data
+[1.314s] running egg_info
+[1.315s] writing ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/PKG-INFO
+[1.315s] writing dependency_links to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/dependency_links.txt
+[1.315s] writing entry points to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/entry_points.txt
+[1.315s] writing requirements to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/requires.txt
+[1.316s] writing top-level names to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/top_level.txt
+[1.345s] reading manifest file '../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/SOURCES.txt'
+[1.346s] writing manifest file '../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/SOURCES.txt'
+[1.346s] running build
+[1.346s] running build_py
+[1.346s] running install
+[1.346s] running install_lib
+[1.347s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg
+[1.348s] copying /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg/joint_points_topic.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg
+[1.348s] copying /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg/__init__.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg
+[1.348s] copying /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg/joint_points_act_service.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg
+[1.348s] byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg/joint_points_topic.py to joint_points_topic.cpython-38.pyc
+[1.349s] byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg/__init__.py to __init__.cpython-38.pyc
+[1.349s] byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg/joint_points_act_service.py to joint_points_act_service.cpython-38.pyc
+[1.350s] running install_data
+[1.350s] copying resource/my_doosan_pkg -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/ament_index/resource_index/packages
+[1.350s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg
+[1.350s] copying package.xml -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg
+[1.350s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch
+[1.351s] copying launch/my_doosan_rviz.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch
+[1.351s] copying launch/my_doosan_gazebo_controller.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch
+[1.351s] copying launch/my_doosan_gazebo.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch
+[1.351s] copying launch/my_doosan_controller.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch
+[1.351s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/rviz
+[1.351s] copying rviz/view_config.rviz -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/rviz
+[1.352s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/config
+[1.352s] copying config/simple_controller.yaml -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/config
+[1.352s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/worlds
+[1.352s] copying worlds/my_empty_world.world -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/worlds
+[1.352s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description
+[1.352s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/urdf
+[1.352s] copying description/urdf/m1013.white.urdf -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/urdf
+[1.353s] copying description/urdf/a0912.blue.urdf -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/urdf
+[1.353s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.353s] copying description/xacro/macro.m1013.white.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.353s] copying description/xacro/a0912.urdf.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.353s] copying description/xacro/macro.internal_config.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.353s] copying description/xacro/m1013.urdf.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.354s] copying description/xacro/macro.a0912.blue.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.354s] copying description/xacro/macro.transmission.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.354s] copying description/xacro/macro.gazebo_config_control.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.354s] copying description/xacro/macro.bumper_config.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro
+[1.354s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes
+[1.354s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/a0912_blue
+[1.354s] creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_2_2.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_1_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_3_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_6_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_2_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_5_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_4_1.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.355s] copying description/meshes/m1013_white/MF1013_2_1.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.356s] copying description/meshes/m1013_white/MF1013_4_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.356s] copying description/meshes/m1013_white/MF1013_0_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white
+[1.357s] running install_egg_info
+[1.358s] Copying ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info to /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info
+[1.359s] running install_scripts
+[1.375s] Installing trajectory_points_act_server script to /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/my_doosan_pkg
+[1.375s] Installing trajectory_points_topic script to /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/my_doosan_pkg
+[1.375s] writing list of installed files to '/home/gabri/ros2_ws/build/my_doosan_pkg0/install.log'
+[1.403s] Invoked command in '/home/gabri/ros2_ws/src/robotic_arm_environment/my_doosan_pkg' returned '0': PYTHONPATH=/home/gabri/ros2_ws/build/my_doosan_pkg0/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_doosan_pkg0 build --build-base /home/gabri/ros2_ws/build/my_doosan_pkg0/build install --record /home/gabri/ros2_ws/build/my_doosan_pkg0/install.log --single-version-externally-managed install_data

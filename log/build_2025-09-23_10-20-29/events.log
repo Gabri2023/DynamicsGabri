@@ -1,0 +1,720 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000530] (my_doosan_pkg) JobQueued: {'identifier': 'my_doosan_pkg', 'dependencies': OrderedDict()}
+[0.000579] (my_doosan_pkg0) JobQueued: {'identifier': 'my_doosan_pkg0', 'dependencies': OrderedDict()}
+[0.000621] (my_environment_pkg) JobQueued: {'identifier': 'my_environment_pkg', 'dependencies': OrderedDict()}
+[0.000662] (my_sphere_pkg) JobQueued: {'identifier': 'my_sphere_pkg', 'dependencies': OrderedDict()}
+[0.000702] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/gabri/ros2_ws/install/gazebo_ros2_control')])}
+[0.000748] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.008672] (my_doosan_pkg) JobStarted: {'identifier': 'my_doosan_pkg'}
+[0.014376] (my_doosan_pkg0) JobStarted: {'identifier': 'my_doosan_pkg0'}
+[0.021006] (my_environment_pkg) JobStarted: {'identifier': 'my_environment_pkg'}
+[0.027828] (my_sphere_pkg) JobStarted: {'identifier': 'my_sphere_pkg'}
+[0.036767] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.037454] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/gabri/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DCMAKE_INSTALL_PREFIX=/home/gabri/ros2_ws/install/gazebo_ros2_control'], 'cwd': '/home/gabri/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabri'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '1295'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabri'), ('OLDPWD', '/home/gabri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '1074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gabri/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabri'), ('JOURNAL_STREAM', '8:45572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332'), ('INVOCATION_ID', '042deb66eb9a4c05a9aeba1214496c12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabri/ros2_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099849] (-) TimerEvent: {}
+[0.200440] (-) TimerEvent: {}
+[0.300828] (-) TimerEvent: {}
+[0.401581] (-) TimerEvent: {}
+[0.502382] (-) TimerEvent: {}
+[0.586069] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.588613] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.588847] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.588952] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.589059] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.589164] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.589267] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.589371] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.589496] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.589612] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.589714] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.589816] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.589919] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.590020] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.590122] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.590226] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.590371] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.602726] (-) TimerEvent: {}
+[0.703195] (-) TimerEvent: {}
+[0.748050] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[0.749530] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[0.778580] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.783675] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.803376] (-) TimerEvent: {}
+[0.876786] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.903499] (-) TimerEvent: {}
+[0.911659] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.999425] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003610] (-) TimerEvent: {}
+[1.087071] (my_doosan_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_doosan_pkg', 'build', '--build-base', '/home/gabri/ros2_ws/build/my_doosan_pkg/build', 'install', '--record', '/home/gabri/ros2_ws/build/my_doosan_pkg/install.log', '--install-scripts', '$base/lib/my_doosan_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gabri/ros2_ws/src/my_doosan_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gabri', 'LC_TIME': 'de_AT.UTF-8', 'SSH_AGENT_PID': '1295', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/gabri', 'OLDPWD': '/home/gabri', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_AT.UTF-8', 'MANAGERPID': '1074', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/gabri/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'gabri', 'JOURNAL_STREAM': '8:45572', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gabri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332', 'INVOCATION_ID': '042deb66eb9a4c05a9aeba1214496c12', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_AT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_AT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.217', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_AT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_AT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_AT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gabri/ros2_ws/build/my_doosan_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gabri/ros2_ws/build/my_doosan_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_AT.UTF-8', 'LC_PAPER': 'de_AT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.099527] (my_environment_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_environment_pkg', 'build', '--build-base', '/home/gabri/ros2_ws/build/my_environment_pkg/build', 'install', '--record', '/home/gabri/ros2_ws/build/my_environment_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gabri/ros2_ws/src/robotic_arm_environment/my_environment_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gabri', 'LC_TIME': 'de_AT.UTF-8', 'SSH_AGENT_PID': '1295', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/gabri', 'OLDPWD': '/home/gabri', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_AT.UTF-8', 'MANAGERPID': '1074', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/gabri/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'gabri', 'JOURNAL_STREAM': '8:45572', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gabri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332', 'INVOCATION_ID': '042deb66eb9a4c05a9aeba1214496c12', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_AT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_AT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.217', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_AT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_AT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_AT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gabri/ros2_ws/build/my_environment_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gabri/ros2_ws/build/my_environment_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_AT.UTF-8', 'LC_PAPER': 'de_AT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.105669] (my_doosan_pkg0) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_doosan_pkg0', 'build', '--build-base', '/home/gabri/ros2_ws/build/my_doosan_pkg0/build', 'install', '--record', '/home/gabri/ros2_ws/build/my_doosan_pkg0/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gabri/ros2_ws/src/robotic_arm_environment/my_doosan_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gabri', 'LC_TIME': 'de_AT.UTF-8', 'SSH_AGENT_PID': '1295', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/gabri', 'OLDPWD': '/home/gabri', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_AT.UTF-8', 'MANAGERPID': '1074', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/gabri/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'gabri', 'JOURNAL_STREAM': '8:45572', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gabri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332', 'INVOCATION_ID': '042deb66eb9a4c05a9aeba1214496c12', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_AT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_AT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.217', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_AT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_AT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_AT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gabri/ros2_ws/build/my_doosan_pkg0', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gabri/ros2_ws/build/my_doosan_pkg0/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_AT.UTF-8', 'LC_PAPER': 'de_AT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.108208] (-) TimerEvent: {}
+[1.122028] (my_sphere_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_sphere_pkg', 'build', '--build-base', '/home/gabri/ros2_ws/build/my_sphere_pkg/build', 'install', '--record', '/home/gabri/ros2_ws/build/my_sphere_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gabri/ros2_ws/src/robotic_arm_environment/my_sphere_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gabri', 'LC_TIME': 'de_AT.UTF-8', 'SSH_AGENT_PID': '1295', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/gabri', 'OLDPWD': '/home/gabri', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_AT.UTF-8', 'MANAGERPID': '1074', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/gabri/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'gabri', 'JOURNAL_STREAM': '8:45572', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gabri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332', 'INVOCATION_ID': '042deb66eb9a4c05a9aeba1214496c12', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_AT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_AT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.217', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_AT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_AT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_AT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gabri/ros2_ws/build/my_sphere_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gabri/ros2_ws/build/my_sphere_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_AT.UTF-8', 'LC_PAPER': 'de_AT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.208368] (-) TimerEvent: {}
+[1.262593] (my_doosan_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.263195] (my_environment_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.263397] (my_doosan_pkg) StdoutLine: {'line': b'writing ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/PKG-INFO\n'}
+[1.263551] (my_doosan_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/dependency_links.txt\n'}
+[1.263701] (my_doosan_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/entry_points.txt\n'}
+[1.263787] (my_doosan_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/requires.txt\n'}
+[1.263911] (my_environment_pkg) StdoutLine: {'line': b'creating ../../../build/my_environment_pkg/my_environment_pkg.egg-info\n'}
+[1.264043] (my_environment_pkg) StdoutLine: {'line': b'writing ../../../build/my_environment_pkg/my_environment_pkg.egg-info/PKG-INFO\n'}
+[1.264216] (my_environment_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/dependency_links.txt\n'}
+[1.264313] (my_environment_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/entry_points.txt\n'}
+[1.264419] (my_doosan_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/top_level.txt\n'}
+[1.264498] (my_environment_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/requires.txt\n'}
+[1.264572] (my_environment_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/top_level.txt\n'}
+[1.265165] (my_environment_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'\n"}
+[1.274232] (my_doosan_pkg0) StdoutLine: {'line': b'running egg_info\n'}
+[1.274786] (my_doosan_pkg0) StdoutLine: {'line': b'creating ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info\n'}
+[1.274948] (my_doosan_pkg0) StdoutLine: {'line': b'writing ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/PKG-INFO\n'}
+[1.275099] (my_doosan_pkg0) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/dependency_links.txt\n'}
+[1.275274] (my_doosan_pkg0) StdoutLine: {'line': b'writing entry points to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/entry_points.txt\n'}
+[1.275425] (my_doosan_pkg0) StdoutLine: {'line': b'writing requirements to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/requires.txt\n'}
+[1.275535] (my_doosan_pkg0) StdoutLine: {'line': b'writing top-level names to ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/top_level.txt\n'}
+[1.276115] (my_doosan_pkg0) StdoutLine: {'line': b"writing manifest file '../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/SOURCES.txt'\n"}
+[1.290490] (my_doosan_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'\n"}
+[1.291005] (my_doosan_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'\n"}
+[1.291174] (my_doosan_pkg) StdoutLine: {'line': b'running build\n'}
+[1.291300] (my_doosan_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.291518] (my_doosan_pkg) StdoutLine: {'line': b'running install\n'}
+[1.291854] (my_environment_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'\n"}
+[1.292106] (my_doosan_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.292403] (my_environment_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'\n"}
+[1.292583] (my_environment_pkg) StdoutLine: {'line': b'running build\n'}
+[1.292730] (my_environment_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.292849] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_environment_pkg/build\n'}
+[1.293030] (my_doosan_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.293195] (my_doosan_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.293359] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_environment_pkg/build/lib\n'}
+[1.293557] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.293669] (my_environment_pkg) StdoutLine: {'line': b'copying my_environment_pkg/main_rl_environment.py -> /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.293778] (my_environment_pkg) StdoutLine: {'line': b'copying my_environment_pkg/collection_data.py -> /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.293885] (my_environment_pkg) StdoutLine: {'line': b'copying my_environment_pkg/main_environment.py -> /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.294003] (my_environment_pkg) StdoutLine: {'line': b'copying my_environment_pkg/__init__.py -> /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.294117] (my_environment_pkg) StdoutLine: {'line': b'copying my_environment_pkg/run_environment.py -> /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.294228] (my_environment_pkg) StdoutLine: {'line': b'copying my_environment_pkg/DDPG_robot_arm.py -> /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg\n'}
+[1.294338] (my_environment_pkg) StdoutLine: {'line': b'running install\n'}
+[1.294512] (my_doosan_pkg) StdoutLine: {'line': b"removing '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.294677] (my_doosan_pkg) StdoutLine: {'line': b'Copying ../../build/my_doosan_pkg/my_doosan_pkg.egg-info to /home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info\n'}
+[1.294889] (my_environment_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.295022] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295139] (my_environment_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg/main_rl_environment.py -> /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295260] (my_environment_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg/collection_data.py -> /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295408] (my_environment_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg/main_environment.py -> /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295605] (my_environment_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg/__init__.py -> /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295726] (my_environment_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg/run_environment.py -> /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295838] (my_environment_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_environment_pkg/build/lib/my_environment_pkg/DDPG_robot_arm.py -> /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg\n'}
+[1.295995] (my_environment_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg/main_rl_environment.py to main_rl_environment.cpython-38.pyc\n'}
+[1.296116] (my_doosan_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.297606] (my_environment_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg/collection_data.py to collection_data.cpython-38.pyc\n'}
+[1.298017] (my_environment_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg/main_environment.py to main_environment.cpython-38.pyc\n'}
+[1.298200] (my_sphere_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.298750] (my_sphere_pkg) StdoutLine: {'line': b'creating ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info\n'}
+[1.298903] (my_sphere_pkg) StdoutLine: {'line': b'writing ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/PKG-INFO\n'}
+[1.299066] (my_sphere_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/dependency_links.txt\n'}
+[1.299262] (my_sphere_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/entry_points.txt\n'}
+[1.299426] (my_sphere_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/requires.txt\n'}
+[1.299543] (my_sphere_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/top_level.txt\n'}
+[1.299708] (my_environment_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[1.299889] (my_environment_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg/run_environment.py to run_environment.cpython-38.pyc\n'}
+[1.300019] (my_environment_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg/DDPG_robot_arm.py to DDPG_robot_arm.cpython-38.pyc\n'}
+[1.300310] (my_environment_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.300426] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/share/ament_index\n'}
+[1.300540] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/share/ament_index/resource_index\n'}
+[1.300650] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/share/ament_index/resource_index/packages\n'}
+[1.300739] (my_environment_pkg) StdoutLine: {'line': b'copying resource/my_environment_pkg -> /home/gabri/ros2_ws/install/my_environment_pkg/share/ament_index/resource_index/packages\n'}
+[1.300794] (my_environment_pkg) StdoutLine: {'line': b'copying package.xml -> /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg\n'}
+[1.300873] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg/launch\n'}
+[1.300924] (my_environment_pkg) StdoutLine: {'line': b'copying launch/my_environment.launch.py -> /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg/launch\n'}
+[1.300976] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg/rviz\n'}
+[1.301028] (my_environment_pkg) StdoutLine: {'line': b'copying rviz/my_rviz_env.rviz -> /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg/rviz\n'}
+[1.301079] (my_sphere_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'\n"}
+[1.301133] (my_environment_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg/worlds\n'}
+[1.301183] (my_environment_pkg) StdoutLine: {'line': b'copying worlds/my_world.world -> /home/gabri/ros2_ws/install/my_environment_pkg/share/my_environment_pkg/worlds\n'}
+[1.301242] (my_environment_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.301648] (my_environment_pkg) StdoutLine: {'line': b'Copying ../../../build/my_environment_pkg/my_environment_pkg.egg-info to /home/gabri/ros2_ws/install/my_environment_pkg/lib/python3.8/site-packages/my_environment_pkg-0.0.0-py3.8.egg-info\n'}
+[1.302225] (my_environment_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.306023] (my_doosan_pkg0) StdoutLine: {'line': b"reading manifest file '../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/SOURCES.txt'\n"}
+[1.306635] (my_doosan_pkg0) StdoutLine: {'line': b"writing manifest file '../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info/SOURCES.txt'\n"}
+[1.306746] (my_doosan_pkg0) StdoutLine: {'line': b'running build\n'}
+[1.306917] (my_doosan_pkg0) StdoutLine: {'line': b'running build_py\n'}
+[1.307028] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_doosan_pkg0/build\n'}
+[1.307137] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib\n'}
+[1.307244] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg\n'}
+[1.307459] (my_doosan_pkg0) StdoutLine: {'line': b'copying my_doosan_pkg/joint_points_topic.py -> /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg\n'}
+[1.307571] (my_doosan_pkg0) StdoutLine: {'line': b'copying my_doosan_pkg/__init__.py -> /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg\n'}
+[1.307674] (my_doosan_pkg0) StdoutLine: {'line': b'copying my_doosan_pkg/joint_points_act_service.py -> /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg\n'}
+[1.307737] (my_doosan_pkg0) StdoutLine: {'line': b'running install\n'}
+[1.307915] (my_doosan_pkg0) StdoutLine: {'line': b'running install_lib\n'}
+[1.308425] (-) TimerEvent: {}
+[1.308578] (my_doosan_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/gabri/ros2_ws/build/my_doosan_pkg/install.log'\n"}
+[1.308709] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg\n'}
+[1.308909] (my_doosan_pkg0) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg/joint_points_topic.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg\n'}
+[1.309027] (my_doosan_pkg0) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg/__init__.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg\n'}
+[1.309133] (my_doosan_pkg0) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_doosan_pkg0/build/lib/my_doosan_pkg/joint_points_act_service.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg\n'}
+[1.309290] (my_doosan_pkg0) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg/joint_points_topic.py to joint_points_topic.cpython-38.pyc\n'}
+[1.310410] (my_doosan_pkg0) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[1.310629] (my_doosan_pkg0) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg/joint_points_act_service.py to joint_points_act_service.cpython-38.pyc\n'}
+[1.311026] (my_doosan_pkg0) StdoutLine: {'line': b'running install_data\n'}
+[1.311225] (my_doosan_pkg0) StdoutLine: {'line': b'copying resource/my_doosan_pkg -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/ament_index/resource_index/packages\n'}
+[1.311436] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg\n'}
+[1.311574] (my_doosan_pkg0) StdoutLine: {'line': b'copying package.xml -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg\n'}
+[1.311797] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch\n'}
+[1.311914] (my_doosan_pkg0) StdoutLine: {'line': b'copying launch/my_doosan_rviz.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch\n'}
+[1.312039] (my_doosan_pkg0) StdoutLine: {'line': b'copying launch/my_doosan_gazebo_controller.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch\n'}
+[1.312157] (my_doosan_pkg0) StdoutLine: {'line': b'copying launch/my_doosan_gazebo.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch\n'}
+[1.312299] (my_doosan_pkg0) StdoutLine: {'line': b'copying launch/my_doosan_controller.launch.py -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/launch\n'}
+[1.312422] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/rviz\n'}
+[1.312541] (my_doosan_pkg0) StdoutLine: {'line': b'copying rviz/view_config.rviz -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/rviz\n'}
+[1.312661] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/config\n'}
+[1.312783] (my_doosan_pkg0) StdoutLine: {'line': b'copying config/simple_controller.yaml -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/config\n'}
+[1.313008] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/worlds\n'}
+[1.313146] (my_doosan_pkg0) StdoutLine: {'line': b'copying worlds/my_empty_world.world -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/worlds\n'}
+[1.313266] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description\n'}
+[1.313386] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/urdf\n'}
+[1.313510] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/urdf/m1013.white.urdf -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/urdf\n'}
+[1.313697] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/urdf/a0912.blue.urdf -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/urdf\n'}
+[1.313808] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.313913] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/macro.m1013.white.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314021] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/a0912.urdf.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314128] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/macro.internal_config.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314236] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/m1013.urdf.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314342] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/macro.a0912.blue.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314449] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/macro.transmission.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314560] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/macro.gazebo_config_control.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314681] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/xacro/macro.bumper_config.xacro -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/xacro\n'}
+[1.314796] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes\n'}
+[1.314951] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/a0912_blue\n'}
+[1.315058] (my_doosan_pkg0) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.315167] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_2_2.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.315275] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_1_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.315685] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_3_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.315890] (my_environment_pkg) StdoutLine: {'line': b'Installing data_collection script to /home/gabri/ros2_ws/install/my_environment_pkg/lib/my_environment_pkg\n'}
+[1.316090] (my_environment_pkg) StdoutLine: {'line': b'Installing run_environment script to /home/gabri/ros2_ws/install/my_environment_pkg/lib/my_environment_pkg\n'}
+[1.316272] (my_environment_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/gabri/ros2_ws/build/my_environment_pkg/install.log'\n"}
+[1.316441] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_6_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.316641] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_2_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.317172] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_5_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.317632] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_4_1.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.318134] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_2_1.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.319634] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_4_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.320003] (my_doosan_pkg0) StdoutLine: {'line': b'copying description/meshes/m1013_white/MF1013_0_0.dae -> /home/gabri/ros2_ws/install/my_doosan_pkg0/share/my_doosan_pkg/description/meshes/m1013_white\n'}
+[1.320917] (my_doosan_pkg0) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.322422] (my_doosan_pkg0) StdoutLine: {'line': b'Copying ../../../build/my_doosan_pkg0/my_doosan_pkg.egg-info to /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info\n'}
+[1.322999] (my_doosan_pkg0) StdoutLine: {'line': b'running install_scripts\n'}
+[1.327212] (my_sphere_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'\n"}
+[1.327896] (my_sphere_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'\n"}
+[1.328147] (my_sphere_pkg) StdoutLine: {'line': b'running build\n'}
+[1.328273] (my_sphere_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.328496] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_sphere_pkg/build\n'}
+[1.328623] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib\n'}
+[1.328730] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg\n'}
+[1.328854] (my_sphere_pkg) StdoutLine: {'line': b'copying my_sphere_pkg/client_node.py -> /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg\n'}
+[1.328969] (my_sphere_pkg) StdoutLine: {'line': b'copying my_sphere_pkg/coordinate_node.py -> /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg\n'}
+[1.329080] (my_sphere_pkg) StdoutLine: {'line': b'copying my_sphere_pkg/__init__.py -> /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg\n'}
+[1.329191] (my_sphere_pkg) StdoutLine: {'line': b'running install\n'}
+[1.329356] (my_sphere_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.329997] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg\n'}
+[1.330194] (my_sphere_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg/client_node.py -> /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg\n'}
+[1.330329] (my_sphere_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg/coordinate_node.py -> /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg\n'}
+[1.330487] (my_sphere_pkg) StdoutLine: {'line': b'copying /home/gabri/ros2_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg/__init__.py -> /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg\n'}
+[1.330661] (my_sphere_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg/client_node.py to client_node.cpython-38.pyc\n'}
+[1.332009] (my_sphere_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg/coordinate_node.py to coordinate_node.cpython-38.pyc\n'}
+[1.332568] (my_sphere_pkg) StdoutLine: {'line': b'byte-compiling /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[1.332793] (my_sphere_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.332924] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/ament_index\n'}
+[1.333185] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/ament_index/resource_index\n'}
+[1.333323] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/ament_index/resource_index/packages\n'}
+[1.333447] (my_sphere_pkg) StdoutLine: {'line': b'copying resource/my_sphere_pkg -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/ament_index/resource_index/packages\n'}
+[1.333561] (my_sphere_pkg) StdoutLine: {'line': b'copying package.xml -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg\n'}
+[1.333672] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/launch\n'}
+[1.333783] (my_sphere_pkg) StdoutLine: {'line': b'copying launch/my_sphere.launch.py -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/launch\n'}
+[1.333895] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/worlds\n'}
+[1.334143] (my_sphere_pkg) StdoutLine: {'line': b'copying worlds/my_empty_world.world -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/worlds\n'}
+[1.334273] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/rviz\n'}
+[1.334399] (my_sphere_pkg) StdoutLine: {'line': b'copying rviz/my_rviz_conf.rviz -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/rviz\n'}
+[1.334521] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models\n'}
+[1.334647] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf\n'}
+[1.334797] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf/sphere_goal\n'}
+[1.335022] (my_sphere_pkg) StdoutLine: {'line': b'copying models/sdf/sphere_goal/model.config -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf/sphere_goal\n'}
+[1.335136] (my_sphere_pkg) StdoutLine: {'line': b'copying models/sdf/sphere_goal/model.sdf -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf/sphere_goal\n'}
+[1.335251] (my_sphere_pkg) StdoutLine: {'line': b'creating /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/urdf\n'}
+[1.335631] (my_sphere_pkg) StdoutLine: {'line': b'copying models/urdf/sphere.urdf -> /home/gabri/ros2_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/urdf\n'}
+[1.336703] (my_sphere_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.336787] (my_sphere_pkg) StdoutLine: {'line': b'Copying ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info to /home/gabri/ros2_ws/install/my_sphere_pkg/lib/python3.8/site-packages/my_sphere_pkg-0.0.0-py3.8.egg-info\n'}
+[1.336848] (my_sphere_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.336912] (my_doosan_pkg) CommandEnded: {'returncode': 0}
+[1.339345] (my_doosan_pkg0) StdoutLine: {'line': b'Installing trajectory_points_act_server script to /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/my_doosan_pkg\n'}
+[1.339448] (my_doosan_pkg0) StdoutLine: {'line': b'Installing trajectory_points_topic script to /home/gabri/ros2_ws/install/my_doosan_pkg0/lib/my_doosan_pkg\n'}
+[1.339945] (my_doosan_pkg0) StdoutLine: {'line': b"writing list of installed files to '/home/gabri/ros2_ws/build/my_doosan_pkg0/install.log'\n"}
+[1.350405] (my_doosan_pkg) JobEnded: {'identifier': 'my_doosan_pkg', 'rc': 0}
+[1.351952] (my_sphere_pkg) StdoutLine: {'line': b'Installing my_client_node script to /home/gabri/ros2_ws/install/my_sphere_pkg/lib/my_sphere_pkg\n'}
+[1.352185] (my_sphere_pkg) StdoutLine: {'line': b'Installing reader_mark_node script to /home/gabri/ros2_ws/install/my_sphere_pkg/lib/my_sphere_pkg\n'}
+[1.352301] (my_sphere_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/gabri/ros2_ws/build/my_sphere_pkg/install.log'\n"}
+[1.352410] (my_environment_pkg) CommandEnded: {'returncode': 0}
+[1.356727] (my_environment_pkg) JobEnded: {'identifier': 'my_environment_pkg', 'rc': 0}
+[1.367867] (my_doosan_pkg0) CommandEnded: {'returncode': 0}
+[1.376406] (my_doosan_pkg0) JobEnded: {'identifier': 'my_doosan_pkg0', 'rc': 0}
+[1.377635] (my_sphere_pkg) CommandEnded: {'returncode': 0}
+[1.382778] (my_sphere_pkg) JobEnded: {'identifier': 'my_sphere_pkg', 'rc': 0}
+[1.408538] (-) TimerEvent: {}
+[1.509068] (-) TimerEvent: {}
+[1.509364] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.509949] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.510628] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.607716] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.607933] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.609186] (-) TimerEvent: {}
+[1.707928] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.708214] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.709279] (-) TimerEvent: {}
+[1.780251] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.780681] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.809420] (-) TimerEvent: {}
+[1.882371] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.884291] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.909556] (-) TimerEvent: {}
+[2.009883] (-) TimerEvent: {}
+[2.110215] (-) TimerEvent: {}
+[2.162992] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)\n'}
+[2.170387] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[2.173150] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.194619] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[2.210384] (-) TimerEvent: {}
+[2.310796] (-) TimerEvent: {}
+[2.327933] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[2.411150] (-) TimerEvent: {}
+[2.425106] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[2.511531] (-) TimerEvent: {}
+[2.533931] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[2.552026] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.582399] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.600862] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.607753] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.611643] (-) TimerEvent: {}
+[2.617257] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.618731] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.619103] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.627467] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.650734] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.711821] (-) TimerEvent: {}
+[2.721966] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.729065] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.737129] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.742437] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.742656] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.747142] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.747406] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.751252] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.751488] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.755265] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.755503] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.762088] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.762311] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.766010] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.811960] (-) TimerEvent: {}
+[2.851530] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.852575] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.852899] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.871453] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.885871] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.893664] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.912108] (-) TimerEvent: {}
+[2.923265] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[3.001824] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.009849] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.012197] (-) TimerEvent: {}
+[3.034740] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[3.104963] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.108060] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.108616] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.112300] (-) TimerEvent: {}
+[3.132011] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.142354] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.171222] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[3.212464] (-) TimerEvent: {}
+[3.221822] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.224657] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.225016] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.225281] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.226071] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.227222] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.234808] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.235977] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[3.236360] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.236588] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.238416] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[3.238746] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.312648] (-) TimerEvent: {}
+[3.365776] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.375902] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.404411] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.412800] (-) TimerEvent: {}
+[3.481313] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.491166] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.512955] (-) TimerEvent: {}
+[3.519324] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.594470] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.595236] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.596211] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.596573] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.597524] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[3.598571] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[3.606621] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[3.606834] (gazebo_ros2_control) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[3.613075] (-) TimerEvent: {}
+[3.713378] (-) TimerEvent: {}
+[3.753214] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[3.754361] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.813828] (-) TimerEvent: {}
+[3.814129] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.814738] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.815254] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/gabri/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[3.815507] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.815983] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.816192] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.816490] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.817174] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.817430] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.817787] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.821013] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.871110] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[3.895457] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/gabri/ros2_ws/build/gazebo_ros2_control\n'}
+[3.905007] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[3.906166] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[3.909922] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabri/ros2_ws/build/gazebo_ros2_control', '--', '-j16', '-l16'], 'cwd': '/home/gabri/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabri'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '1295'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabri'), ('OLDPWD', '/home/gabri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '1074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gabri/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabri'), ('JOURNAL_STREAM', '8:45572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332'), ('INVOCATION_ID', '042deb66eb9a4c05a9aeba1214496c12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabri/ros2_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy')]), 'shell': False}
+[3.913945] (-) TimerEvent: {}
+[3.966656] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_hardware_plugins\x1b[0m\n'}
+[3.967620] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[4.014329] (-) TimerEvent: {}
+[4.076609] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[4.081435] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[4.114776] (-) TimerEvent: {}
+[4.215122] (-) TimerEvent: {}
+[4.315844] (-) TimerEvent: {}
+[4.416211] (-) TimerEvent: {}
+[4.516567] (-) TimerEvent: {}
+[4.616920] (-) TimerEvent: {}
+[4.717791] (-) TimerEvent: {}
+[4.818155] (-) TimerEvent: {}
+[4.919005] (-) TimerEvent: {}
+[5.019372] (-) TimerEvent: {}
+[5.119705] (-) TimerEvent: {}
+[5.220061] (-) TimerEvent: {}
+[5.320766] (-) TimerEvent: {}
+[5.421115] (-) TimerEvent: {}
+[5.521730] (-) TimerEvent: {}
+[5.622075] (-) TimerEvent: {}
+[5.722680] (-) TimerEvent: {}
+[5.823416] (-) TimerEvent: {}
+[5.924019] (-) TimerEvent: {}
+[6.024404] (-) TimerEvent: {}
+[6.125065] (-) TimerEvent: {}
+[6.225421] (-) TimerEvent: {}
+[6.326118] (-) TimerEvent: {}
+[6.426943] (-) TimerEvent: {}
+[6.527593] (-) TimerEvent: {}
+[6.628348] (-) TimerEvent: {}
+[6.728705] (-) TimerEvent: {}
+[6.829078] (-) TimerEvent: {}
+[6.929882] (-) TimerEvent: {}
+[7.030497] (-) TimerEvent: {}
+[7.131317] (-) TimerEvent: {}
+[7.231678] (-) TimerEvent: {}
+[7.332052] (-) TimerEvent: {}
+[7.432412] (-) TimerEvent: {}
+[7.533010] (-) TimerEvent: {}
+[7.633626] (-) TimerEvent: {}
+[7.734608] (-) TimerEvent: {}
+[7.835373] (-) TimerEvent: {}
+[7.935741] (-) TimerEvent: {}
+[8.036123] (-) TimerEvent: {}
+[8.136785] (-) TimerEvent: {}
+[8.237391] (-) TimerEvent: {}
+[8.338052] (-) TimerEvent: {}
+[8.438750] (-) TimerEvent: {}
+[8.539368] (-) TimerEvent: {}
+[8.639713] (-) TimerEvent: {}
+[8.740072] (-) TimerEvent: {}
+[8.840677] (-) TimerEvent: {}
+[8.941291] (-) TimerEvent: {}
+[9.041907] (-) TimerEvent: {}
+[9.142522] (-) TimerEvent: {}
+[9.243460] (-) TimerEvent: {}
+[9.343804] (-) TimerEvent: {}
+[9.444164] (-) TimerEvent: {}
+[9.544523] (-) TimerEvent: {}
+[9.645133] (-) TimerEvent: {}
+[9.745458] (-) TimerEvent: {}
+[9.846168] (-) TimerEvent: {}
+[9.946531] (-) TimerEvent: {}
+[10.047149] (-) TimerEvent: {}
+[10.147532] (-) TimerEvent: {}
+[10.247886] (-) TimerEvent: {}
+[10.348211] (-) TimerEvent: {}
+[10.448571] (-) TimerEvent: {}
+[10.548931] (-) TimerEvent: {}
+[10.649524] (-) TimerEvent: {}
+[10.750067] (-) TimerEvent: {}
+[10.850448] (-) TimerEvent: {}
+[10.951062] (-) TimerEvent: {}
+[11.051741] (-) TimerEvent: {}
+[11.152349] (-) TimerEvent: {}
+[11.253126] (-) TimerEvent: {}
+[11.353736] (-) TimerEvent: {}
+[11.454528] (-) TimerEvent: {}
+[11.555145] (-) TimerEvent: {}
+[11.655908] (-) TimerEvent: {}
+[11.756566] (-) TimerEvent: {}
+[11.856923] (-) TimerEvent: {}
+[11.957507] (-) TimerEvent: {}
+[12.057868] (-) TimerEvent: {}
+[12.158530] (-) TimerEvent: {}
+[12.259139] (-) TimerEvent: {}
+[12.359506] (-) TimerEvent: {}
+[12.459843] (-) TimerEvent: {}
+[12.481146] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[12.559999] (-) TimerEvent: {}
+[12.660381] (-) TimerEvent: {}
+[12.761144] (-) TimerEvent: {}
+[12.861544] (-) TimerEvent: {}
+[12.967108] (-) TimerEvent: {}
+[13.014691] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[13.067274] (-) TimerEvent: {}
+[13.167646] (-) TimerEvent: {}
+[13.268007] (-) TimerEvent: {}
+[13.368360] (-) TimerEvent: {}
+[13.468715] (-) TimerEvent: {}
+[13.569070] (-) TimerEvent: {}
+[13.669452] (-) TimerEvent: {}
+[13.769883] (-) TimerEvent: {}
+[13.870284] (-) TimerEvent: {}
+[13.885561] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[13.970463] (-) TimerEvent: {}
+[14.070919] (-) TimerEvent: {}
+[14.171369] (-) TimerEvent: {}
+[14.271796] (-) TimerEvent: {}
+[14.372209] (-) TimerEvent: {}
+[14.472676] (-) TimerEvent: {}
+[14.572066] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[14.572767] (-) TimerEvent: {}
+[14.590021] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[14.591219] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[14.609640] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gabri/ros2_ws/build/gazebo_ros2_control'], 'cwd': '/home/gabri/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabri'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '1295'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabri'), ('OLDPWD', '/home/gabri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '1074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gabri/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabri'), ('JOURNAL_STREAM', '8:45572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332'), ('INVOCATION_ID', '042deb66eb9a4c05a9aeba1214496c12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabri/ros2_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy')]), 'shell': False}
+[14.623041] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.623473] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[14.627819] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[14.628146] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[14.629635] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[14.629922] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[14.630192] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[14.630331] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[14.630454] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[14.630574] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[14.630696] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[14.630815] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[14.631071] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[14.631215] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[14.631373] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[14.631502] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[14.631623] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[14.631743] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[14.631956] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[14.632075] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[14.632188] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[14.632300] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[14.632412] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[14.632534] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[14.632647] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[14.632848] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.632971] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.633090] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.633208] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[14.633326] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[14.633442] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[14.634550] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[14.653210] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[14.654065] (gazebo_ros2_control_demos) JobStarted: {'identifier': 'gazebo_ros2_control_demos'}
+[14.664075] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'cmake'}
+[14.667427] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '/home/gabri/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos', '-DCMAKE_INSTALL_PREFIX=/home/gabri/ros2_ws/install/gazebo_ros2_control_demos'], 'cwd': '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabri'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '1295'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabri'), ('OLDPWD', '/home/gabri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '1074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gabri/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabri'), ('JOURNAL_STREAM', '8:45572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332'), ('INVOCATION_ID', '042deb66eb9a4c05a9aeba1214496c12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control:/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control:/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy')]), 'shell': False}
+[14.672897] (-) TimerEvent: {}
+[14.741227] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[14.773067] (-) TimerEvent: {}
+[14.802208] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[14.809218] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[14.873185] (-) TimerEvent: {}
+[14.898968] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[14.900585] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.973454] (-) TimerEvent: {}
+[14.996797] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.010993] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.011304] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.012763] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[15.073635] (-) TimerEvent: {}
+[15.093084] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[15.095464] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[15.173770] (-) TimerEvent: {}
+[15.198178] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.216368] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.216737] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.218256] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[15.243408] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[15.243813] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.274114] (-) TimerEvent: {}
+[15.374534] (-) TimerEvent: {}
+[15.405104] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[15.429271] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.434233] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[15.474693] (-) TimerEvent: {}
+[15.563432] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[15.574836] (-) TimerEvent: {}
+[15.597755] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[15.674040] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.674933] (-) TimerEvent: {}
+[15.775337] (-) TimerEvent: {}
+[15.875773] (-) TimerEvent: {}
+[15.976212] (-) TimerEvent: {}
+[16.036231] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[16.069866] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[16.070795] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.071443] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.076338] (-) TimerEvent: {}
+[16.153610] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.154009] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.176467] (-) TimerEvent: {}
+[16.240184] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[16.240629] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[16.276619] (-) TimerEvent: {}
+[16.309320] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[16.309724] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[16.376813] (-) TimerEvent: {}
+[16.404317] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[16.406638] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.476950] (-) TimerEvent: {}
+[16.523053] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[16.553536] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[16.554654] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[16.577098] (-) TimerEvent: {}
+[16.612489] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.613499] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.613874] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[16.614085] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.614484] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[16.614654] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[16.614885] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.615393] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.615773] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[16.616588] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.616802] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.617144] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.619430] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.636132] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[16.644245] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /home/gabri/ros2_ws/build/gazebo_ros2_control_demos\n'}
+[16.650863] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[16.652073] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'build'}
+[16.654716] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos', '--', '-j16', '-l16'], 'cwd': '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabri'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '1295'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabri'), ('OLDPWD', '/home/gabri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '1074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gabri/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabri'), ('JOURNAL_STREAM', '8:45572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332'), ('INVOCATION_ID', '042deb66eb9a4c05a9aeba1214496c12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control:/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control:/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy')]), 'shell': False}
+[16.677282] (-) TimerEvent: {}
+[16.701083] (gazebo_ros2_control_demos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example_gripper\x1b[0m\n'}
+[16.701845] (gazebo_ros2_control_demos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example_velocity\x1b[0m\n'}
+[16.702057] (gazebo_ros2_control_demos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example_position\x1b[0m\n'}
+[16.702204] (gazebo_ros2_control_demos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example_effort\x1b[0m\n'}
+[16.702306] (gazebo_ros2_control_demos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example_diff_drive\x1b[0m\n'}
+[16.728720] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o\x1b[0m\n'}
+[16.728918] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o\x1b[0m\n'}
+[16.732682] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o\x1b[0m\n'}
+[16.734301] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[16.735887] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o\x1b[0m\n'}
+[16.777453] (-) TimerEvent: {}
+[16.877868] (-) TimerEvent: {}
+[16.978233] (-) TimerEvent: {}
+[17.078657] (-) TimerEvent: {}
+[17.179057] (-) TimerEvent: {}
+[17.279428] (-) TimerEvent: {}
+[17.379797] (-) TimerEvent: {}
+[17.480147] (-) TimerEvent: {}
+[17.580507] (-) TimerEvent: {}
+[17.680851] (-) TimerEvent: {}
+[17.781204] (-) TimerEvent: {}
+[17.881554] (-) TimerEvent: {}
+[17.981907] (-) TimerEvent: {}
+[18.082261] (-) TimerEvent: {}
+[18.182593] (-) TimerEvent: {}
+[18.282937] (-) TimerEvent: {}
+[18.383334] (-) TimerEvent: {}
+[18.483684] (-) TimerEvent: {}
+[18.584035] (-) TimerEvent: {}
+[18.684377] (-) TimerEvent: {}
+[18.784732] (-) TimerEvent: {}
+[18.885094] (-) TimerEvent: {}
+[18.985460] (-) TimerEvent: {}
+[19.085830] (-) TimerEvent: {}
+[19.094707] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[19.117087] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[19.186008] (-) TimerEvent: {}
+[19.233371] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[19.233779] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[19.260705] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 90%] Built target example_velocity\n'}
+[19.286173] (-) TimerEvent: {}
+[19.295103] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 90%] Built target example_effort\n'}
+[19.386313] (-) TimerEvent: {}
+[19.396062] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 90%] Built target example_diff_drive\n'}
+[19.399205] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 90%] Built target example_gripper\n'}
+[19.486457] (-) TimerEvent: {}
+[19.586814] (-) TimerEvent: {}
+[19.687149] (-) TimerEvent: {}
+[19.694732] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[19.787328] (-) TimerEvent: {}
+[19.866957] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_position\n'}
+[19.881377] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[19.882659] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'install'}
+[19.883166] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos'], 'cwd': '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabri'), ('LC_TIME', 'de_AT.UTF-8'), ('SSH_AGENT_PID', '1295'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabri'), ('OLDPWD', '/home/gabri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '1074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gabri/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabri'), ('JOURNAL_STREAM', '8:45572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabri-Lenovo-Legion-5-15ARH05H:@/tmp/.ICE-unix/1332,unix/gabri-Lenovo-Legion-5-15ARH05H:/tmp/.ICE-unix/1332'), ('INVOCATION_ID', '042deb66eb9a4c05a9aeba1214496c12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9d12fe_96cf_4af5_92e1_36f486749429'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.217'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control:/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabri/ros2_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabri/ros2_ws/install/gazebo_ros2_control:/home/gabri/ros2_ws/install/my_doosan_pkg:/opt/ros/foxy')]), 'shell': False}
+[19.887486] (-) TimerEvent: {}
+[19.896102] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.896466] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch\n'}
+[19.896633] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[19.896785] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[19.896932] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[19.897107] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py\n'}
+[19.897253] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[19.897506] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config\n'}
+[19.897650] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml\n'}
+[19.897790] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml\n'}
+[19.897935] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml\n'}
+[19.898084] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml\n'}
+[19.898229] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml\n'}
+[19.898352] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf\n'}
+[19.898471] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[19.898592] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[19.898713] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[19.898832] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[19.898952] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[19.899073] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position\n'}
+[19.899274] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""\n'}
+[19.899567] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity\n'}
+[19.899712] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""\n'}
+[19.899831] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort\n'}
+[19.899953] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""\n'}
+[19.900075] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper\n'}
+[19.900271] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""\n'}
+[19.900394] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive\n'}
+[19.900558] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/home/gabri/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""\n'}
+[19.900707] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos\n'}
+[19.900891] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos\n'}
+[19.901093] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[19.901217] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[19.901340] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh\n'}
+[19.901510] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv\n'}
+[19.901712] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash\n'}
+[19.901889] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh\n'}
+[19.902014] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh\n'}
+[19.902135] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv\n'}
+[19.902255] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv\n'}
+[19.902374] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos\n'}
+[19.902494] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake\n'}
+[19.902614] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake\n'}
+[19.902782] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /home/gabri/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml\n'}
+[19.904089] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[19.919717] (gazebo_ros2_control_demos) JobEnded: {'identifier': 'gazebo_ros2_control_demos', 'rc': 0}
+[19.920609] (-) EventReactorShutdown: {}

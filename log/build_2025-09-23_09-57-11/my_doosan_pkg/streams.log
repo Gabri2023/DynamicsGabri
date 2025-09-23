@@ -1,0 +1,20 @@
+[0.444s] Invoking command in '/home/gabri/ros2_ws/src/my_doosan_pkg': PYTHONPATH=/home/gabri/ros2_ws/build/my_doosan_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_doosan_pkg build --build-base /home/gabri/ros2_ws/build/my_doosan_pkg/build install --record /home/gabri/ros2_ws/build/my_doosan_pkg/install.log --install-scripts $base/lib/my_doosan_pkg --single-version-externally-managed install_data
+[0.587s] running egg_info
+[0.587s] writing ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/PKG-INFO
+[0.588s] writing dependency_links to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/dependency_links.txt
+[0.588s] writing entry points to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/entry_points.txt
+[0.588s] writing requirements to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/requires.txt
+[0.588s] writing top-level names to ../../build/my_doosan_pkg/my_doosan_pkg.egg-info/top_level.txt
+[0.613s] reading manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[0.614s] writing manifest file '../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[0.614s] running build
+[0.614s] running build_py
+[0.614s] running install
+[0.614s] running install_lib
+[0.615s] running install_data
+[0.616s] running install_egg_info
+[0.617s] removing '/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.617s] Copying ../../build/my_doosan_pkg/my_doosan_pkg.egg-info to /home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages/my_doosan_pkg-0.0.0-py3.8.egg-info
+[0.617s] running install_scripts
+[0.629s] writing list of installed files to '/home/gabri/ros2_ws/build/my_doosan_pkg/install.log'
+[0.649s] Invoked command in '/home/gabri/ros2_ws/src/my_doosan_pkg' returned '0': PYTHONPATH=/home/gabri/ros2_ws/build/my_doosan_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabri/ros2_ws/install/my_doosan_pkg/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_doosan_pkg build --build-base /home/gabri/ros2_ws/build/my_doosan_pkg/build install --record /home/gabri/ros2_ws/build/my_doosan_pkg/install.log --install-scripts $base/lib/my_doosan_pkg --single-version-externally-managed install_data
