@@ -1,4 +1,4 @@
 [console_scripts]
 data_collection = my_environment_pkg.collection_data:main
 run_environment = my_environment_pkg.run_environment:main
-
+run_environment_test = my_environment_pkg.test_agent:main
